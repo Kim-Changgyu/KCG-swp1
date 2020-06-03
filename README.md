@@ -1,2 +1,2 @@
-# 20162347	Changgyu, Kim
+# 2016XXXX	Changgyu, Kim
 # Kookmin Univ. SW
