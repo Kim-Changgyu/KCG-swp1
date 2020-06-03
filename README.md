@@ -1,2 +1,2 @@
 # 2016XXXX	Changgyu, Kim
-# Kookmin Univ. SW
+# Kookmin Univ. Computer Science
