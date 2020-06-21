@@ -6,7 +6,7 @@ html = b"""
 			b = <input type="number" name="b"><br>
 			<input type="submit"><br>
 		</form>
-		<p>Click the button.</p>
+		<p>Message</p>
 	</body>
 </html>
 """
