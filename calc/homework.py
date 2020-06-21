@@ -11,6 +11,10 @@ def application(environ, start_response):
 		response_body = html.replace("Message", "SUM(a+b) : {}. MUL(a*b) : {}".format(a+b, a*b))
 	except ValueError:
 		response_body = html.replace("Message", "Please input correct type of value.") 
+	except NameError:
+		response_body = html.replace("Message", "NameError occurred. Please contact the administrator.")
+	except TypeError:
+		response_body = html.replace("Message", "TypeError occurred. Please contact the administrator.")
 	start_response("200 OK", [("Content-Type", "text/html"), ("Content-Length", str(len(response_body)))])
 	return [response_body]
 		
